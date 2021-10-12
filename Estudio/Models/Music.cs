@@ -8,7 +8,7 @@ namespace Estudio.Models
 
         public int MusicId { get; set; }
 
-        //hola
+        //holan
         [Required(ErrorMessage = "El campo Nombre es requerido")]
         [StringLength(60, MinimumLength = 5,ErrorMessage = "El nombre debe que tener entre 5 a 60 caracteres")]
         [Display(Name ="Nombre de la cancion")]
